@@ -1,6 +1,5 @@
-public class SaldoInsuficienteException extends Exception{ // excecao para saldo insuficiente
+public class SaldoInsuficienteException extends Exception{
     
-    // mensagem de erro
     public SaldoInsuficienteException(String mensagem){
         super(mensagem);
     }

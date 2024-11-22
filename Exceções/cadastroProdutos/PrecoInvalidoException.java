@@ -1,6 +1,5 @@
-public class PrecoInvalidoException extends Exception{ // excecao para preco invalido
+public class PrecoInvalidoException extends Exception{
     
-    // mensagem de erro
     public PrecoInvalidoException(String mensagem){
         super(mensagem);
     }
